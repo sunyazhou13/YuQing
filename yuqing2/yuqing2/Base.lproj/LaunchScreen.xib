@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES">
+    <dependencies>
+        <deployment version="1808" identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="(c) 2015 horizoom.com. All rights reserved." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="9" translatesAutoresizingMaskIntoConstraints="NO" id="8ie-xW-0ye">
+                    <rect key="frame" x="20" y="532" width="280" height="16"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="wtW-HR-XSc">
+                    <rect key="frame" x="123" y="81" width="75" height="75"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="75" id="C0U-ue-pQL"/>
+                        <constraint firstAttribute="width" constant="75" id="r1f-bH-JEJ"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="中新舆情" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OPy-qD-UjU">
+                    <rect key="frame" x="0.0" y="226" width="320" height="30"/>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="25"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="大数据时代的舆情管家和决策参谋" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YC8-Fz-p4c">
+                    <rect key="frame" x="0.0" y="273" width="320" height="23"/>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="19"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="wtW-HR-XSc" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="81" id="6az-v4-Nht"/>
+                <constraint firstAttribute="centerX" secondItem="YC8-Fz-p4c" secondAttribute="centerX" id="8Ac-Wm-ZuQ"/>
+                <constraint firstItem="OPy-qD-UjU" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="8qM-AE-bPG"/>
+                <constraint firstAttribute="trailing" secondItem="YC8-Fz-p4c" secondAttribute="trailing" id="ACv-um-2pO"/>
+                <constraint firstAttribute="trailing" secondItem="OPy-qD-UjU" secondAttribute="trailing" id="Cgv-8H-17k"/>
+                <constraint firstAttribute="bottom" secondItem="8ie-xW-0ye" secondAttribute="bottom" constant="20" id="Kzo-t9-V3l"/>
+                <constraint firstItem="8ie-xW-0ye" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="20" symbolic="YES" id="MfP-vx-nX0"/>
+                <constraint firstAttribute="centerX" secondItem="8ie-xW-0ye" secondAttribute="centerX" id="ZEH-qu-HZ9"/>
+                <constraint firstAttribute="centerX" secondItem="OPy-qD-UjU" secondAttribute="centerX" id="aXy-RZ-QIc"/>
+                <constraint firstItem="YC8-Fz-p4c" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="cS9-MQ-leG"/>
+                <constraint firstItem="YC8-Fz-p4c" firstAttribute="top" secondItem="OPy-qD-UjU" secondAttribute="bottom" constant="17" id="hUq-TQ-ZvS"/>
+                <constraint firstItem="OPy-qD-UjU" firstAttribute="top" secondItem="wtW-HR-XSc" secondAttribute="bottom" constant="70" id="tvJ-DM-PdL"/>
+                <constraint firstAttribute="centerX" secondItem="wtW-HR-XSc" secondAttribute="centerX" id="ykD-l3-O7i"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <point key="canvasLocation" x="548" y="455"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="logo" width="80" height="80"/>
+    </resources>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>

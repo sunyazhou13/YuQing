@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<array>
+		<dict>
+			<key>title</key>
+			<string>用户信息</string>
+			<key>img</key>
+			<string>用户信息</string>
+		</dict>
+		<dict>
+			<key>title</key>
+			<string>文字大小</string>
+			<key>img</key>
+			<string>文字大小</string>
+		</dict>
+	</array>
+	<array>
+		<dict>
+			<key>title</key>
+			<string>意见反馈</string>
+			<key>img</key>
+			<string>意见反馈</string>
+		</dict>
+		<dict>
+			<key>title</key>
+			<string>使用帮助</string>
+			<key>img</key>
+			<string>使用帮助</string>
+		</dict>
+	</array>
+	<array>
+		<dict>
+			<key>title</key>
+			<string>关于我们</string>
+			<key>img</key>
+			<string>关于我们</string>
+		</dict>
+	</array>
+</array>
+</plist>
